@@ -13,8 +13,11 @@ Componente frontend del proyecto formativo y proyectos de clase (listas de chequ
 ## Estructura del repositorio
 
 universidad-proyecto/
+
 ├── backend-springboot/ # Proyecto Spring Boot (registro de usuarios con roles)
+
 ├── frontend-react/ # Proyecto React JS (formulario con validaciones y confirmación)
+
 └── repositorio.txt # Enlace del repositorio (para la evidencia)
 
 
