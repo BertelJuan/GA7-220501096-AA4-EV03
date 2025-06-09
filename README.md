@@ -10,6 +10,9 @@ Codificación de módulos del software Standalone, Web y Móvil de acuerdo al pr
 ✅ **GA7-220501096-AA4-EV03**  
 Componente frontend del proyecto formativo y proyectos de clase (listas de chequeo).
 
+✅ **GA7-220501096-AA5-EV03**  
+Diseño y desarrollo de servicios web del proyecto formativo.
+
 ## Estructura del repositorio
 
 universidad-proyecto/
