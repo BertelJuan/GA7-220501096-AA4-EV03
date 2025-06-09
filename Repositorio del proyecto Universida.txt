@@ -1,0 +1,18 @@
+Repositorio del proyecto: Universidad – Backend y Frontend
+
+URL: https://github.com/BertelJuan/GA7-220501096-AA4-EV03
+
+Descripción:
+Este repositorio contiene el módulo de registro de usuarios realizado en React JS como frontend y Spring Boot como Backend, cumpliendo con los requerimientos de la evidencia GA7-220501096-AA4-EV03.
+
+Ambos proyectos están organizados por carpeta:
+- frontend-React: aplicación React con validaciones y vista de confirmación.
+- backend-springboot: API de registro desarrollada con Spring Boot.
+
+Tecnologías usadas:
+- React 18
+- Vite
+- Spring Boot 3.5.0
+- Axios
+- React Router
+- H2 Database

@@ -1,5 +1,6 @@
 package com.universidad.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 
 @Entity
@@ -11,18 +12,16 @@ public class Usuario {
     private String rol;
     private String nombre;
     private String correo;
+    @JsonIgnore
     private String contraseña;
 
-
     public Usuario() {}
-
 
     public Usuario(String nombre, String correo, String contraseña) {
         this.nombre = nombre;
         this.correo = correo;
         this.contraseña = contraseña;
     }
-
 
     public Long getId() {
         return id;
