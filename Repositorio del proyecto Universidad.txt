@@ -1,6 +1,7 @@
 Repositorio del proyecto: Universidad – Backend y Frontend
 
 URL: https://github.com/BertelJuan/GA7-220501096-AA4-EV03
+(Evidencias: AA3-EV01, AA4-EV03, AA5-EV03)
 
 Descripción:
 Este repositorio contiene el módulo de registro de usuarios realizado en React JS como frontend y Spring Boot como Backend, cumpliendo con los requerimientos de la evidencia GA7-220501096-AA4-EV03.

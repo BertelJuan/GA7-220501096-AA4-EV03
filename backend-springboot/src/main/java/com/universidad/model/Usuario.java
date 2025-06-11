@@ -1,9 +1,10 @@
 package com.universidad.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "usuario")
 public class Usuario {
 
     @Id
@@ -11,16 +12,19 @@ public class Usuario {
     private Long id;
     private String rol;
     private String nombre;
+
+    @Column(unique = true)
     private String correo;
-    @JsonIgnore
-    private String contraseña;
+
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
+    private String password;
 
     public Usuario() {}
 
-    public Usuario(String nombre, String correo, String contraseña) {
+    public Usuario(String nombre, String correo, String password) {
         this.nombre = nombre;
         this.correo = correo;
-        this.contraseña = contraseña;
+        this.password = password;
     }
 
     public Long getId() {
@@ -55,11 +59,11 @@ public class Usuario {
         this.correo = correo;
     }
 
-    public String getContraseña() {
-        return contraseña;
+    public String getPassword() {
+        return password;
     }
 
-    public void setContraseña(String contraseña) {
-        this.contraseña = contraseña;
+    public void setPassword(String password) {
+        this.password = password;
     }
 }
