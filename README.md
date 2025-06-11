@@ -13,6 +13,9 @@ Componente frontend del proyecto formativo y proyectos de clase (listas de chequ
 ✅ **GA7-220501096-AA5-EV03**  
 Diseño y desarrollo de servicios web del proyecto formativo.
 
+✅ **GA8-220501096-AA1-EV01**  
+Desarrollar software a partir de la integración de sus módulos componentes.
+
 ## Estructura del repositorio
 
 universidad-proyecto/
